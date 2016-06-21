@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C34EA431D1976E700FC9A3D /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C34EA421D1976E700FC9A3D /* Book.swift */; };
+		1C34EA451D1979FB00FC9A3D /* BookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C34EA441D1979FB00FC9A3D /* BookStore.swift */; };
 		1CF5AAE11D194BA70070E287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5AAE01D194BA70070E287 /* AppDelegate.swift */; };
 		1CF5AAE31D194BA70070E287 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5AAE21D194BA70070E287 /* MasterViewController.swift */; };
 		1CF5AAE51D194BA70070E287 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5AAE41D194BA70070E287 /* DetailViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C34EA421D1976E700FC9A3D /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Book.swift; path = ../Book.swift; sourceTree = "<group>"; };
+		1C34EA441D1979FB00FC9A3D /* BookStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookStore.swift; path = ../BookStore.swift; sourceTree = "<group>"; };
 		1CF5AADD1D194BA70070E287 /* myMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF5AAE01D194BA70070E287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CF5AAE21D194BA70070E287 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 		1CF5AADF1D194BA70070E287 /* myMovies */ = {
 			isa = PBXGroup;
 			children = (
+				1C34EA441D1979FB00FC9A3D /* BookStore.swift */,
+				1C34EA421D1976E700FC9A3D /* Book.swift */,
 				1CF5AAE01D194BA70070E287 /* AppDelegate.swift */,
 				1CF5AAE21D194BA70070E287 /* MasterViewController.swift */,
 				1CF5AAE41D194BA70070E287 /* DetailViewController.swift */,
@@ -261,6 +267,8 @@
 			files = (
 				1CF5AAE51D194BA70070E287 /* DetailViewController.swift in Sources */,
 				1CF5AAE31D194BA70070E287 /* MasterViewController.swift in Sources */,
+				1C34EA431D1976E700FC9A3D /* Book.swift in Sources */,
+				1C34EA451D1979FB00FC9A3D /* BookStore.swift in Sources */,
 				1CF5AAE11D194BA70070E287 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +494,7 @@
 				1CF5AB091D194BA70070E287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CF5AB0A1D194BA70070E287 /* Build configuration list for PBXNativeTarget "myMoviesTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +503,7 @@
 				1CF5AB0C1D194BA70070E287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CF5AB0D1D194BA70070E287 /* Build configuration list for PBXNativeTarget "myMoviesUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +512,7 @@
 				1CF5AB0F1D194BA70070E287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
